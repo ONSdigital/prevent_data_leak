@@ -9,5 +9,3 @@ James and [Paige](https://github.com/paigeh1) thought a pre-commit helper could 
 ## Acknowledgements
 
 The intial code for this repo came from our colleague at ONS, Tom Coates. 
-
-
