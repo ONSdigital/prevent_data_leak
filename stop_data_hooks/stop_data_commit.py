@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Pre commit hook to prevent adding certain filetypes to repo."""
 import argparse
 import json
