@@ -1,5 +1,0 @@
--   id: stop-data-commit
-    name: stop data commit 
-    description: stops data files from being committed.
-    entry: stop-data-commit
-    language: python

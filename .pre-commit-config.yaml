@@ -1,9 +1,8 @@
 repos:
--   repo: local
+  - repo: local
     hooks:
-    -   id: stop-data-commit
-        name: stop data commit
-        entry: stop_data_hooks/stop_data_commit.py
-        stages: [commit]
-        language: python
-        types: [python]
+      - id: restricted-filenames
+        name: Check commits for unexpected file extensions
+        entry: These file extensions are unusual and should be checked
+        language: fail
+        files: .*\.(csv|feather|xlsx)
