@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: restricted-filenames
+        name: Check commits for unexpected file extensions
+        entry: These file extensions are unusual and should be checked
+        language: fail
+        files: .*\.(csv|feather|xlsx)
